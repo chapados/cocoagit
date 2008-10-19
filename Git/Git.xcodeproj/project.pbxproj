@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		57CDAEB30EAA7DB30006F161 /* Docs */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 57CDAEB60EAA7DD20006F161 /* Build configuration list for PBXAggregateTarget "Docs" */;
+			buildPhases = (
+				57CDAEB20EAA7DB30006F161 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Docs;
+			productName = Docs;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		57CDACD00EAA77D10006F161 /* GITActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACA00EAA77D10006F161 /* GITActor.h */; };
+		57CDACD10EAA77D10006F161 /* GITActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACA10EAA77D10006F161 /* GITActor.m */; };
+		57CDACD40EAA77D10006F161 /* GITBlob.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACA40EAA77D10006F161 /* GITBlob.h */; };
+		57CDACD50EAA77D10006F161 /* GITBlob.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACA50EAA77D10006F161 /* GITBlob.m */; };
+		57CDACD80EAA77D10006F161 /* GITBranch.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACA80EAA77D10006F161 /* GITBranch.h */; };
+		57CDACD90EAA77D10006F161 /* GITBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACA90EAA77D10006F161 /* GITBranch.m */; };
+		57CDACDA0EAA77D10006F161 /* GITCommit.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACAA0EAA77D10006F161 /* GITCommit.h */; };
+		57CDACDB0EAA77D10006F161 /* GITCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACAB0EAA77D10006F161 /* GITCommit.m */; };
+		57CDACDE0EAA77D10006F161 /* GITDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACAE0EAA77D10006F161 /* GITDateTime.h */; };
+		57CDACDF0EAA77D10006F161 /* GITDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACAF0EAA77D10006F161 /* GITDateTime.m */; };
+		57CDACE20EAA77D10006F161 /* GITFileStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACB20EAA77D10006F161 /* GITFileStore.h */; };
+		57CDACE30EAA77D10006F161 /* GITFileStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACB30EAA77D10006F161 /* GITFileStore.m */; };
+		57CDACE60EAA77D10006F161 /* GITObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACB60EAA77D10006F161 /* GITObject.h */; };
+		57CDACE70EAA77D10006F161 /* GITObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACB70EAA77D10006F161 /* GITObject.m */; };
+		57CDACE80EAA77D10006F161 /* GITObjectStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACB80EAA77D10006F161 /* GITObjectStore.h */; };
+		57CDACE90EAA77D10006F161 /* GITObjectStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACB90EAA77D10006F161 /* GITObjectStore.m */; };
+		57CDACEA0EAA77D10006F161 /* GITPackFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACBA0EAA77D10006F161 /* GITPackFile.h */; };
+		57CDACEB0EAA77D10006F161 /* GITPackFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACBB0EAA77D10006F161 /* GITPackFile.m */; };
+		57CDACEC0EAA77D10006F161 /* GITPackStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACBC0EAA77D10006F161 /* GITPackStore.h */; };
+		57CDACED0EAA77D10006F161 /* GITPackStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACBD0EAA77D10006F161 /* GITPackStore.m */; };
+		57CDACEE0EAA77D10006F161 /* GITRepo.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACBE0EAA77D10006F161 /* GITRepo.h */; };
+		57CDACEF0EAA77D10006F161 /* GITRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACBF0EAA77D10006F161 /* GITRepo.m */; };
+		57CDACF20EAA77D10006F161 /* GITTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACC20EAA77D10006F161 /* GITTag.h */; };
+		57CDACF30EAA77D10006F161 /* GITTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACC30EAA77D10006F161 /* GITTag.m */; };
+		57CDACF40EAA77D10006F161 /* GITTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACC40EAA77D10006F161 /* GITTree.h */; };
+		57CDACF50EAA77D10006F161 /* GITTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACC50EAA77D10006F161 /* GITTree.m */; };
+		57CDACF60EAA77D10006F161 /* GITTreeEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACC60EAA77D10006F161 /* GITTreeEntry.h */; };
+		57CDACF70EAA77D10006F161 /* GITTreeEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACC70EAA77D10006F161 /* GITTreeEntry.m */; };
+		57CDACFC0EAA77D10006F161 /* GITUtilityBelt.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDACCC0EAA77D10006F161 /* GITUtilityBelt.h */; };
+		57CDACFD0EAA77D10006F161 /* GITUtilityBelt.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACCD0EAA77D10006F161 /* GITUtilityBelt.m */; };
+		57CDAD1A0EAA78410006F161 /* NSData+Compression.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDAD120EAA78410006F161 /* NSData+Compression.h */; };
+		57CDAD1B0EAA78410006F161 /* NSData+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAD130EAA78410006F161 /* NSData+Compression.m */; };
+		57CDAD1C0EAA78410006F161 /* NSData+Hashing.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDAD140EAA78410006F161 /* NSData+Hashing.h */; };
+		57CDAD1D0EAA78410006F161 /* NSData+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAD150EAA78410006F161 /* NSData+Hashing.m */; };
+		57CDAD1E0EAA78410006F161 /* NSData+Searching.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDAD160EAA78410006F161 /* NSData+Searching.h */; };
+		57CDAD1F0EAA78410006F161 /* NSData+Searching.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAD170EAA78410006F161 /* NSData+Searching.m */; };
+		57CDAD200EAA78410006F161 /* NSTimeZone+Offset.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDAD180EAA78410006F161 /* NSTimeZone+Offset.h */; };
+		57CDAD210EAA78410006F161 /* NSTimeZone+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAD190EAA78410006F161 /* NSTimeZone+Offset.m */; };
+		57CDAD310EAA78DB0006F161 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CDAD300EAA78DB0006F161 /* libz.dylib */; };
+		57CDAD790EAA7AA20006F161 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CDAD780EAA7AA20006F161 /* SenTestingKit.framework */; };
+		57CDAE860EAA7ADD0006F161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		57CDAECB0EAA7EA30006F161 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CDAD780EAA7AA20006F161 /* SenTestingKit.framework */; };
+		57CDAEED0EAA81E20006F161 /* GITActorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAEDC0EAA81E20006F161 /* GITActorTests.m */; };
+		57CDAEEE0EAA81E20006F161 /* GITBlobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAEDE0EAA81E20006F161 /* GITBlobTests.m */; };
+		57CDAEEF0EAA81E20006F161 /* GITCommitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAEE00EAA81E20006F161 /* GITCommitTests.m */; };
+		57CDAEF00EAA81E20006F161 /* GITDateTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAEE20EAA81E20006F161 /* GITDateTimeTests.m */; };
+		57CDAEF10EAA81E20006F161 /* GITFileStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAEE40EAA81E20006F161 /* GITFileStoreTests.m */; };
+		57CDAEF20EAA81E20006F161 /* GITRepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAEE60EAA81E20006F161 /* GITRepoTests.m */; };
+		57CDAEF30EAA81E20006F161 /* GITTreeEntryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAEE80EAA81E20006F161 /* GITTreeEntryTests.m */; };
+		57CDAEF40EAA81E20006F161 /* GITTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAEEA0EAA81E20006F161 /* GITTreeTests.m */; };
+		57CDAEF50EAA81E20006F161 /* GITUtilityBeltTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAEEC0EAA81E20006F161 /* GITUtilityBeltTests.m */; };
+		57CDAF090EAA823F0006F161 /* GITActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACA10EAA77D10006F161 /* GITActor.m */; };
+		57CDAF0A0EAA823F0006F161 /* GITBlob.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACA50EAA77D10006F161 /* GITBlob.m */; };
+		57CDAF0B0EAA823F0006F161 /* GITBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACA90EAA77D10006F161 /* GITBranch.m */; };
+		57CDAF0C0EAA823F0006F161 /* GITCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACAB0EAA77D10006F161 /* GITCommit.m */; };
+		57CDAF0D0EAA823F0006F161 /* GITDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACAF0EAA77D10006F161 /* GITDateTime.m */; };
+		57CDAF0E0EAA823F0006F161 /* GITFileStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACB30EAA77D10006F161 /* GITFileStore.m */; };
+		57CDAF0F0EAA823F0006F161 /* GITObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACB70EAA77D10006F161 /* GITObject.m */; };
+		57CDAF100EAA823F0006F161 /* GITObjectStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACB90EAA77D10006F161 /* GITObjectStore.m */; };
+		57CDAF110EAA823F0006F161 /* GITPackFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACBB0EAA77D10006F161 /* GITPackFile.m */; };
+		57CDAF120EAA823F0006F161 /* GITPackStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACBD0EAA77D10006F161 /* GITPackStore.m */; };
+		57CDAF130EAA823F0006F161 /* GITRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACBF0EAA77D10006F161 /* GITRepo.m */; };
+		57CDAF140EAA823F0006F161 /* GITTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACC30EAA77D10006F161 /* GITTag.m */; };
+		57CDAF150EAA823F0006F161 /* GITTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACC50EAA77D10006F161 /* GITTree.m */; };
+		57CDAF160EAA823F0006F161 /* GITTreeEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACC70EAA77D10006F161 /* GITTreeEntry.m */; };
+		57CDAF170EAA823F0006F161 /* GITUtilityBelt.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDACCD0EAA77D10006F161 /* GITUtilityBelt.m */; };
+		57CDAF180EAA823F0006F161 /* NSData+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAD130EAA78410006F161 /* NSData+Compression.m */; };
+		57CDAF190EAA823F0006F161 /* NSData+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAD150EAA78410006F161 /* NSData+Hashing.m */; };
+		57CDAF1A0EAA823F0006F161 /* NSData+Searching.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAD170EAA78410006F161 /* NSData+Searching.m */; };
+		57CDAF1B0EAA823F0006F161 /* NSTimeZone+Offset.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAD190EAA78410006F161 /* NSTimeZone+Offset.m */; };
+		57CDAF1E0EAA826F0006F161 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CDAD300EAA78DB0006F161 /* libz.dylib */; };
+		57CDAF200EAA829A0006F161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		57CDAF7C0EAAABA80006F161 /* Git_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 57CDAF7B0EAAABA80006F161 /* Git_Prefix.pch */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57CDACA00EAA77D10006F161 /* GITActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITActor.h; sourceTree = "<group>"; };
+		57CDACA10EAA77D10006F161 /* GITActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITActor.m; sourceTree = "<group>"; };
+		57CDACA40EAA77D10006F161 /* GITBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITBlob.h; sourceTree = "<group>"; };
+		57CDACA50EAA77D10006F161 /* GITBlob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITBlob.m; sourceTree = "<group>"; };
+		57CDACA80EAA77D10006F161 /* GITBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITBranch.h; sourceTree = "<group>"; };
+		57CDACA90EAA77D10006F161 /* GITBranch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITBranch.m; sourceTree = "<group>"; };
+		57CDACAA0EAA77D10006F161 /* GITCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITCommit.h; sourceTree = "<group>"; };
+		57CDACAB0EAA77D10006F161 /* GITCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITCommit.m; sourceTree = "<group>"; };
+		57CDACAE0EAA77D10006F161 /* GITDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITDateTime.h; sourceTree = "<group>"; };
+		57CDACAF0EAA77D10006F161 /* GITDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITDateTime.m; sourceTree = "<group>"; };
+		57CDACB20EAA77D10006F161 /* GITFileStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITFileStore.h; sourceTree = "<group>"; };
+		57CDACB30EAA77D10006F161 /* GITFileStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITFileStore.m; sourceTree = "<group>"; };
+		57CDACB60EAA77D10006F161 /* GITObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITObject.h; sourceTree = "<group>"; };
+		57CDACB70EAA77D10006F161 /* GITObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITObject.m; sourceTree = "<group>"; };
+		57CDACB80EAA77D10006F161 /* GITObjectStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITObjectStore.h; sourceTree = "<group>"; };
+		57CDACB90EAA77D10006F161 /* GITObjectStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITObjectStore.m; sourceTree = "<group>"; };
+		57CDACBA0EAA77D10006F161 /* GITPackFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITPackFile.h; sourceTree = "<group>"; };
+		57CDACBB0EAA77D10006F161 /* GITPackFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITPackFile.m; sourceTree = "<group>"; };
+		57CDACBC0EAA77D10006F161 /* GITPackStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITPackStore.h; sourceTree = "<group>"; };
+		57CDACBD0EAA77D10006F161 /* GITPackStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITPackStore.m; sourceTree = "<group>"; };
+		57CDACBE0EAA77D10006F161 /* GITRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITRepo.h; sourceTree = "<group>"; };
+		57CDACBF0EAA77D10006F161 /* GITRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITRepo.m; sourceTree = "<group>"; };
+		57CDACC20EAA77D10006F161 /* GITTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITTag.h; sourceTree = "<group>"; };
+		57CDACC30EAA77D10006F161 /* GITTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITTag.m; sourceTree = "<group>"; };
+		57CDACC40EAA77D10006F161 /* GITTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITTree.h; sourceTree = "<group>"; };
+		57CDACC50EAA77D10006F161 /* GITTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITTree.m; sourceTree = "<group>"; };
+		57CDACC60EAA77D10006F161 /* GITTreeEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITTreeEntry.h; sourceTree = "<group>"; };
+		57CDACC70EAA77D10006F161 /* GITTreeEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITTreeEntry.m; sourceTree = "<group>"; };
+		57CDACCC0EAA77D10006F161 /* GITUtilityBelt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITUtilityBelt.h; sourceTree = "<group>"; };
+		57CDACCD0EAA77D10006F161 /* GITUtilityBelt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITUtilityBelt.m; sourceTree = "<group>"; };
+		57CDAD120EAA78410006F161 /* NSData+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Compression.h"; sourceTree = "<group>"; };
+		57CDAD130EAA78410006F161 /* NSData+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Compression.m"; sourceTree = "<group>"; };
+		57CDAD140EAA78410006F161 /* NSData+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hashing.h"; sourceTree = "<group>"; };
+		57CDAD150EAA78410006F161 /* NSData+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hashing.m"; sourceTree = "<group>"; };
+		57CDAD160EAA78410006F161 /* NSData+Searching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Searching.h"; sourceTree = "<group>"; };
+		57CDAD170EAA78410006F161 /* NSData+Searching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Searching.m"; sourceTree = "<group>"; };
+		57CDAD180EAA78410006F161 /* NSTimeZone+Offset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+Offset.h"; sourceTree = "<group>"; };
+		57CDAD190EAA78410006F161 /* NSTimeZone+Offset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+Offset.m"; sourceTree = "<group>"; };
+		57CDAD300EAA78DB0006F161 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		57CDAD780EAA7AA20006F161 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		57CDAEBE0EAA7E1D0006F161 /* Unit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Tests-Info.plist"; sourceTree = "<group>"; };
+		57CDAEC70EAA7E810006F161 /* Unit Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Unit Tests.octest"; path = "build/Debug/Unit Tests.octest"; sourceTree = "<group>"; };
+		57CDAEDB0EAA81E20006F161 /* GITActorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITActorTests.h; sourceTree = "<group>"; };
+		57CDAEDC0EAA81E20006F161 /* GITActorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITActorTests.m; sourceTree = "<group>"; };
+		57CDAEDD0EAA81E20006F161 /* GITBlobTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITBlobTests.h; sourceTree = "<group>"; };
+		57CDAEDE0EAA81E20006F161 /* GITBlobTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITBlobTests.m; sourceTree = "<group>"; };
+		57CDAEDF0EAA81E20006F161 /* GITCommitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITCommitTests.h; sourceTree = "<group>"; };
+		57CDAEE00EAA81E20006F161 /* GITCommitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITCommitTests.m; sourceTree = "<group>"; };
+		57CDAEE10EAA81E20006F161 /* GITDateTimeTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITDateTimeTests.h; sourceTree = "<group>"; };
+		57CDAEE20EAA81E20006F161 /* GITDateTimeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITDateTimeTests.m; sourceTree = "<group>"; };
+		57CDAEE30EAA81E20006F161 /* GITFileStoreTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITFileStoreTests.h; sourceTree = "<group>"; };
+		57CDAEE40EAA81E20006F161 /* GITFileStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITFileStoreTests.m; sourceTree = "<group>"; };
+		57CDAEE50EAA81E20006F161 /* GITRepoTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITRepoTests.h; sourceTree = "<group>"; };
+		57CDAEE60EAA81E20006F161 /* GITRepoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITRepoTests.m; sourceTree = "<group>"; };
+		57CDAEE70EAA81E20006F161 /* GITTreeEntryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITTreeEntryTests.h; sourceTree = "<group>"; };
+		57CDAEE80EAA81E20006F161 /* GITTreeEntryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITTreeEntryTests.m; sourceTree = "<group>"; };
+		57CDAEE90EAA81E20006F161 /* GITTreeTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITTreeTests.h; sourceTree = "<group>"; };
+		57CDAEEA0EAA81E20006F161 /* GITTreeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITTreeTests.m; sourceTree = "<group>"; };
+		57CDAEEB0EAA81E20006F161 /* GITUtilityBeltTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITUtilityBeltTests.h; sourceTree = "<group>"; };
+		57CDAEEC0EAA81E20006F161 /* GITUtilityBeltTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITUtilityBeltTests.m; sourceTree = "<group>"; };
+		57CDAF7B0EAAABA80006F161 /* Git_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Git_Prefix.pch; path = src/Git_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* Git.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Git.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57CDAEC40EAA7E810006F161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CDAF1E0EAA826F0006F161 /* libz.dylib in Frameworks */,
+				57CDAF200EAA829A0006F161 /* Foundation.framework in Frameworks */,
+				57CDAECB0EAA7EA30006F161 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CDAE860EAA7ADD0006F161 /* Foundation.framework in Frameworks */,
+				57CDAD310EAA78DB0006F161 /* libz.dylib in Frameworks */,
+				57CDAD790EAA7AA20006F161 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* Git.framework */,
+				57CDAEC70EAA7E810006F161 /* Unit Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				57CDAF7B0EAAABA80006F161 /* Git_Prefix.pch */,
+				57CDAEDA0EAA81E20006F161 /* tests */,
+				57CDAC9F0EAA77D10006F161 /* src */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				57CDAEBE0EAA7E1D0006F161 /* Unit Tests-Info.plist */,
+			);
+			name = Git;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57CDAD300EAA78DB0006F161 /* libz.dylib */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57CDAD780EAA7AA20006F161 /* SenTestingKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		57CDAC9F0EAA77D10006F161 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				57CDAD120EAA78410006F161 /* NSData+Compression.h */,
+				57CDAD130EAA78410006F161 /* NSData+Compression.m */,
+				57CDAD140EAA78410006F161 /* NSData+Hashing.h */,
+				57CDAD150EAA78410006F161 /* NSData+Hashing.m */,
+				57CDAD160EAA78410006F161 /* NSData+Searching.h */,
+				57CDAD170EAA78410006F161 /* NSData+Searching.m */,
+				57CDAD180EAA78410006F161 /* NSTimeZone+Offset.h */,
+				57CDAD190EAA78410006F161 /* NSTimeZone+Offset.m */,
+				57CDACA00EAA77D10006F161 /* GITActor.h */,
+				57CDACA10EAA77D10006F161 /* GITActor.m */,
+				57CDACA40EAA77D10006F161 /* GITBlob.h */,
+				57CDACA50EAA77D10006F161 /* GITBlob.m */,
+				57CDACA80EAA77D10006F161 /* GITBranch.h */,
+				57CDACA90EAA77D10006F161 /* GITBranch.m */,
+				57CDACAA0EAA77D10006F161 /* GITCommit.h */,
+				57CDACAB0EAA77D10006F161 /* GITCommit.m */,
+				57CDACAE0EAA77D10006F161 /* GITDateTime.h */,
+				57CDACAF0EAA77D10006F161 /* GITDateTime.m */,
+				57CDACB20EAA77D10006F161 /* GITFileStore.h */,
+				57CDACB30EAA77D10006F161 /* GITFileStore.m */,
+				57CDACB60EAA77D10006F161 /* GITObject.h */,
+				57CDACB70EAA77D10006F161 /* GITObject.m */,
+				57CDACB80EAA77D10006F161 /* GITObjectStore.h */,
+				57CDACB90EAA77D10006F161 /* GITObjectStore.m */,
+				57CDACBA0EAA77D10006F161 /* GITPackFile.h */,
+				57CDACBB0EAA77D10006F161 /* GITPackFile.m */,
+				57CDACBC0EAA77D10006F161 /* GITPackStore.h */,
+				57CDACBD0EAA77D10006F161 /* GITPackStore.m */,
+				57CDACBE0EAA77D10006F161 /* GITRepo.h */,
+				57CDACBF0EAA77D10006F161 /* GITRepo.m */,
+				57CDACC20EAA77D10006F161 /* GITTag.h */,
+				57CDACC30EAA77D10006F161 /* GITTag.m */,
+				57CDACC40EAA77D10006F161 /* GITTree.h */,
+				57CDACC50EAA77D10006F161 /* GITTree.m */,
+				57CDACC60EAA77D10006F161 /* GITTreeEntry.h */,
+				57CDACC70EAA77D10006F161 /* GITTreeEntry.m */,
+				57CDACCC0EAA77D10006F161 /* GITUtilityBelt.h */,
+				57CDACCD0EAA77D10006F161 /* GITUtilityBelt.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		57CDAEDA0EAA81E20006F161 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				57CDAEDB0EAA81E20006F161 /* GITActorTests.h */,
+				57CDAEDC0EAA81E20006F161 /* GITActorTests.m */,
+				57CDAEDD0EAA81E20006F161 /* GITBlobTests.h */,
+				57CDAEDE0EAA81E20006F161 /* GITBlobTests.m */,
+				57CDAEDF0EAA81E20006F161 /* GITCommitTests.h */,
+				57CDAEE00EAA81E20006F161 /* GITCommitTests.m */,
+				57CDAEE10EAA81E20006F161 /* GITDateTimeTests.h */,
+				57CDAEE20EAA81E20006F161 /* GITDateTimeTests.m */,
+				57CDAEE30EAA81E20006F161 /* GITFileStoreTests.h */,
+				57CDAEE40EAA81E20006F161 /* GITFileStoreTests.m */,
+				57CDAEE50EAA81E20006F161 /* GITRepoTests.h */,
+				57CDAEE60EAA81E20006F161 /* GITRepoTests.m */,
+				57CDAEE70EAA81E20006F161 /* GITTreeEntryTests.h */,
+				57CDAEE80EAA81E20006F161 /* GITTreeEntryTests.m */,
+				57CDAEE90EAA81E20006F161 /* GITTreeTests.h */,
+				57CDAEEA0EAA81E20006F161 /* GITTreeTests.m */,
+				57CDAEEB0EAA81E20006F161 /* GITUtilityBeltTests.h */,
+				57CDAEEC0EAA81E20006F161 /* GITUtilityBeltTests.m */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CDACD00EAA77D10006F161 /* GITActor.h in Headers */,
+				57CDACD40EAA77D10006F161 /* GITBlob.h in Headers */,
+				57CDACD80EAA77D10006F161 /* GITBranch.h in Headers */,
+				57CDACDA0EAA77D10006F161 /* GITCommit.h in Headers */,
+				57CDACDE0EAA77D10006F161 /* GITDateTime.h in Headers */,
+				57CDACE20EAA77D10006F161 /* GITFileStore.h in Headers */,
+				57CDACE60EAA77D10006F161 /* GITObject.h in Headers */,
+				57CDACE80EAA77D10006F161 /* GITObjectStore.h in Headers */,
+				57CDACEA0EAA77D10006F161 /* GITPackFile.h in Headers */,
+				57CDACEC0EAA77D10006F161 /* GITPackStore.h in Headers */,
+				57CDACEE0EAA77D10006F161 /* GITRepo.h in Headers */,
+				57CDACF20EAA77D10006F161 /* GITTag.h in Headers */,
+				57CDACF40EAA77D10006F161 /* GITTree.h in Headers */,
+				57CDACF60EAA77D10006F161 /* GITTreeEntry.h in Headers */,
+				57CDACFC0EAA77D10006F161 /* GITUtilityBelt.h in Headers */,
+				57CDAD1A0EAA78410006F161 /* NSData+Compression.h in Headers */,
+				57CDAD1C0EAA78410006F161 /* NSData+Hashing.h in Headers */,
+				57CDAD1E0EAA78410006F161 /* NSData+Searching.h in Headers */,
+				57CDAD200EAA78410006F161 /* NSTimeZone+Offset.h in Headers */,
+				57CDAF7C0EAAABA80006F161 /* Git_Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57CDAEC60EAA7E810006F161 /* Unit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CDAECA0EAA7EA00006F161 /* Build configuration list for PBXNativeTarget "Unit Tests" */;
+			buildPhases = (
+				57CDAEC20EAA7E810006F161 /* Resources */,
+				57CDAEC30EAA7E810006F161 /* Sources */,
+				57CDAEC40EAA7E810006F161 /* Frameworks */,
+				57CDAEC50EAA7E810006F161 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unit Tests";
+			productName = "Unit Tests";
+			productReference = 57CDAEC70EAA7E810006F161 /* Unit Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8DC2EF4F0486A6940098B216 /* Git */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Git" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Git;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = Git;
+			productReference = 8DC2EF5B0486A6940098B216 /* Git.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Git" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* Git */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* Git */,
+				57CDAEB30EAA7DB30006F161 /* Docs */,
+				57CDAEC60EAA7E810006F161 /* Unit Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CDAEC20EAA7E810006F161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57CDAEB20EAA7DB30006F161 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#  Build the doxygen documentation for the project and load the docset into Xcode.\n#  If the DOXYGEN_PATH is not correct for you please check the \"Get Info\" for this\n#  target, the majority of variables for this script have been defined there.\n#\n#  Use the following to adjust the value of the $DOXYGEN_PATH User-Defined Setting:\n#    Binary install location: /Applications/Doxygen.app/Contents/Resources/doxygen\n#    Source build install location: /usr/local/bin/doxygen\n\n#  If the config file doesn't exist, run 'doxygen -g $SOURCE_ROOT/doxygen.config' to \n#   a get default file.\n\nif ! [ -f $SOURCE_ROOT/doxygen.config ] \nthen \n  echo doxygen config file does not exist\n  $DOXYGEN_PATH -g $SOURCE_ROOT/doxygen.config\nfi\n\n#  Append the proper input/output directories and docset info to the config file.\n#  This works even though values are assigned higher up in the file. Easier than sed.\n\ncp -p $SOURCE_ROOT/doxygen.config $TEMP_DIR/doxygen.config\n\necho \"INPUT = $SOURCE_ROOT\" >> $TEMP_DIR/doxygen.config\necho \"OUTPUT_DIRECTORY = $SOURCE_ROOT/$OUTPUT_DIRECTORY\" >> $TEMP_DIR/doxygen.config\necho \"GENERATE_DOCSET        = YES\" >> $TEMP_DIR/doxygen.config\necho \"DOCSET_BUNDLE_ID       = $DOCSET_BUNDLE_ID\" >> $TEMP_DIR/doxygen.config\n\n#  Run doxygen on the updated config file.\n#  Note: doxygen creates a Makefile that does most of the heavy lifting.\n\n$DOXYGEN_PATH $TEMP_DIR/doxygen.config\n\n#  make will invoke docsetutil. Take a look at the Makefile to see how this is done.\n\nmake -C $SOURCE_ROOT/$OUTPUT_DIRECTORY/html install\n\n#  Construct a temporary applescript file to tell Xcode to load a docset.\n\nrm -f $TEMP_DIR/loadDocSet.scpt\n\necho \"tell application \\\"Xcode\\\"\" >> $TEMP_DIR/loadDocSet.scpt\necho \"load documentation set with path \\\"/Users/$USER/Library/Developer/Shared/Documentation/DocSets/\\\"\" \n     >> $TEMP_DIR/loadDocSet.scpt\necho \"end tell\" >> $TEMP_DIR/loadDocSet.scpt\n\n#  Run the load-docset applescript command.\n\nosascript $TEMP_DIR/loadDocSet.scpt\n\nexit 0";
+		};
+		57CDAEC50EAA7E810006F161 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CDAEC30EAA7E810006F161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CDAF090EAA823F0006F161 /* GITActor.m in Sources */,
+				57CDAF0A0EAA823F0006F161 /* GITBlob.m in Sources */,
+				57CDAF0B0EAA823F0006F161 /* GITBranch.m in Sources */,
+				57CDAF0C0EAA823F0006F161 /* GITCommit.m in Sources */,
+				57CDAF0D0EAA823F0006F161 /* GITDateTime.m in Sources */,
+				57CDAF0E0EAA823F0006F161 /* GITFileStore.m in Sources */,
+				57CDAF0F0EAA823F0006F161 /* GITObject.m in Sources */,
+				57CDAF100EAA823F0006F161 /* GITObjectStore.m in Sources */,
+				57CDAF110EAA823F0006F161 /* GITPackFile.m in Sources */,
+				57CDAF120EAA823F0006F161 /* GITPackStore.m in Sources */,
+				57CDAF130EAA823F0006F161 /* GITRepo.m in Sources */,
+				57CDAF140EAA823F0006F161 /* GITTag.m in Sources */,
+				57CDAF150EAA823F0006F161 /* GITTree.m in Sources */,
+				57CDAF160EAA823F0006F161 /* GITTreeEntry.m in Sources */,
+				57CDAF170EAA823F0006F161 /* GITUtilityBelt.m in Sources */,
+				57CDAF180EAA823F0006F161 /* NSData+Compression.m in Sources */,
+				57CDAF190EAA823F0006F161 /* NSData+Hashing.m in Sources */,
+				57CDAF1A0EAA823F0006F161 /* NSData+Searching.m in Sources */,
+				57CDAF1B0EAA823F0006F161 /* NSTimeZone+Offset.m in Sources */,
+				57CDAEED0EAA81E20006F161 /* GITActorTests.m in Sources */,
+				57CDAEEE0EAA81E20006F161 /* GITBlobTests.m in Sources */,
+				57CDAEEF0EAA81E20006F161 /* GITCommitTests.m in Sources */,
+				57CDAEF00EAA81E20006F161 /* GITDateTimeTests.m in Sources */,
+				57CDAEF10EAA81E20006F161 /* GITFileStoreTests.m in Sources */,
+				57CDAEF20EAA81E20006F161 /* GITRepoTests.m in Sources */,
+				57CDAEF30EAA81E20006F161 /* GITTreeEntryTests.m in Sources */,
+				57CDAEF40EAA81E20006F161 /* GITTreeTests.m in Sources */,
+				57CDAEF50EAA81E20006F161 /* GITUtilityBeltTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CDACD10EAA77D10006F161 /* GITActor.m in Sources */,
+				57CDACD50EAA77D10006F161 /* GITBlob.m in Sources */,
+				57CDACD90EAA77D10006F161 /* GITBranch.m in Sources */,
+				57CDACDB0EAA77D10006F161 /* GITCommit.m in Sources */,
+				57CDACDF0EAA77D10006F161 /* GITDateTime.m in Sources */,
+				57CDACE30EAA77D10006F161 /* GITFileStore.m in Sources */,
+				57CDACE70EAA77D10006F161 /* GITObject.m in Sources */,
+				57CDACE90EAA77D10006F161 /* GITObjectStore.m in Sources */,
+				57CDACEB0EAA77D10006F161 /* GITPackFile.m in Sources */,
+				57CDACED0EAA77D10006F161 /* GITPackStore.m in Sources */,
+				57CDACEF0EAA77D10006F161 /* GITRepo.m in Sources */,
+				57CDACF30EAA77D10006F161 /* GITTag.m in Sources */,
+				57CDACF50EAA77D10006F161 /* GITTree.m in Sources */,
+				57CDACF70EAA77D10006F161 /* GITTreeEntry.m in Sources */,
+				57CDACFD0EAA77D10006F161 /* GITUtilityBelt.m in Sources */,
+				57CDAD1B0EAA78410006F161 /* NSData+Compression.m in Sources */,
+				57CDAD1D0EAA78410006F161 /* NSData+Hashing.m in Sources */,
+				57CDAD1F0EAA78410006F161 /* NSData+Searching.m in Sources */,
+				57CDAD210EAA78410006F161 /* NSTimeZone+Offset.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = Git;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Git_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = Git;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		57CDAEB40EAA7DB40006F161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Docs;
+			};
+			name = Debug;
+		};
+		57CDAEB50EAA7DB40006F161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = Docs;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		57CDAEC80EAA7E820006F161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Unit Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Unit Tests";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		57CDAEC90EAA7E820006F161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Unit Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Unit Tests";
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CDAEB60EAA7DD20006F161 /* Build configuration list for PBXAggregateTarget "Docs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CDAEB40EAA7DB40006F161 /* Debug */,
+				57CDAEB50EAA7DB40006F161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CDAECA0EAA7EA00006F161 /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CDAEC80EAA7E820006F161 /* Debug */,
+				57CDAEC90EAA7E820006F161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

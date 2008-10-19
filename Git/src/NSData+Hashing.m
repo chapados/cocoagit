@@ -9,7 +9,9 @@
 //  http://www.cocoadev.com/index.pl?NSDataCategory
 //
 
+#import <Foundation/Foundation.h>
 #import "NSData+Hashing.h"
+#include <CommonCrypto/CommonDigest.h>
 #include <openssl/sha.h>
 
 @implementation NSData (Hashing)
@@ -47,11 +49,11 @@
 #pragma mark SHA1 Hashing routines
 - (NSData*) sha1Digest
 {
-	HEComputeDigestNSData(SHA1);
+	HEComputeDigestNSData(CC_SHA1);
 }
 - (NSString*) sha1DigestString
 {
-	HEComputeDigestNSString(SHA1);
+	HEComputeDigestNSString(CC_SHA1);
 }
 
 @end

@@ -6,6 +6,7 @@
 //  Copyright 2008 ManicPanda.com. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import "NSTimeZone+Offset.h"
 
 static const unsigned short int HourInSeconds = 3600;

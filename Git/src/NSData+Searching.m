@@ -7,6 +7,7 @@
 //
 
 #import "NSData+Searching.h"
+#include <string.h>
 
 @implementation NSData (Searching)
 

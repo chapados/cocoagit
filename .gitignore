@@ -2,3 +2,4 @@
 *.xcodeproj/*.mode1v3
 build
 Docs
+html
