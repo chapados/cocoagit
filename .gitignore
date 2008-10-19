@@ -1,5 +1,5 @@
-*.xcodeproj/*.pbxuser
-*.xcodeproj/*.mode1v3
+*.pbxuser
+*.mode1v3
 build
 Docs
 html

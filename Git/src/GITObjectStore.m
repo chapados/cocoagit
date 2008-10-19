@@ -32,8 +32,16 @@
     NSString * metaStr = [[NSString alloc] initWithData:meta
                                                encoding:NSASCIIStringEncoding];
     NSUInteger indexOfSpace = [metaStr rangeOfString:@" "].location;
-
-    *type = [metaStr substringToIndex:indexOfSpace];
+	
+	// BRC: This is causing a crash when run on this git repository.
+	//      indexOfSpace is returning as NSNotFound.
+	// This is an attempt to fix index-out-of-range errors
+	// in test and CLI utilities, but this fix makes tests
+	// fail.
+	// How should this case be handled?
+	if (NSNotFound == indexOfSpace) { return NO; }
+	
+	*type = [metaStr substringToIndex:indexOfSpace];
     *size = (NSUInteger)[[metaStr substringFromIndex:indexOfSpace + 1] integerValue];
 
     if (data && type && size)

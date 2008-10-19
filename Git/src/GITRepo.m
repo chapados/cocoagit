@@ -74,8 +74,8 @@
 {
     NSString * type; NSUInteger size; NSData * data;
 
-    [self.store extractFromObject:sha1 type:&type size:&size data:&data];
-    if ([expectedType isEqualToString:type] && [data length] == size)
+    BOOL extracted = [self.store extractFromObject:sha1 type:&type size:&size data:&data];
+    if (extracted && [expectedType isEqualToString:type] && [data length] == size)
         return data;
     return nil;
 }
